@@ -1,0 +1,29 @@
+Package: cnvstrmliner
+Type: Package
+Title: What the Package Does (Title Case)
+Version: 0.1.0
+Author: Konstantinos Mavrommatis
+Maintainer: The package maintainer <me@test.com>
+Description: CNV streamliner.
+    The aim of this package is to streamline the analysis of results produced by CNV tools.
+    It introduces the cnvstrml object and parsers for commonly used methods.
+    It has some methods to compare different calls.
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.3
+Roxygen: list(markdown = TRUE)
+Depends: R (>= 4.1.0),
+        methods
+biocViews:
+Imports: 
+    magrittr,
+    dplyr,
+    tidyr,
+    tibble,
+    BiocGenerics,
+    S4Vectors,
+    GenomeInfoDb,
+    SummarizedExperiment,
+    GenomicRanges,
+    VariantAnnotation
